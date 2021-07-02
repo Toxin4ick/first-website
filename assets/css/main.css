@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+align-content: center;
+font-family: cursive;
+}
+
+a {
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+  word-break: break-all;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background: #e3e3e3;
+    cursor: pointer;
+}
+
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logout {
+    color: #b7625c;
+}
+
+.head {
+  margin-left: 25%;
+  margin-right: 15%;
+  display: flex;
+  align-content: center;
+
+}
+.logo{
+  width: 250px;
+  margin-right: 52px
+
+}
+.search {
+      position: relative;
+      max-width: 704px;
+      min-width: 300px;
+      width: 100%;
+  }
+  .search_v_nytri {
+    margin-top: 32px;
+    display: flex;
+    height: 40px;
+    border-radius: 19px;
+    background-color: #bbbb;
+    align-content: center;
+
+
+  }
+  .zen-ui-search__magnifier {
+    width: 30px;
+    height: 30px;
+    position:relative;
+    margin: 5px;
+}
+
+.search_ya_vyezhay {
+width: 100%;
+height: auto;
+background: rgba( 255,255,255,.0);
+border-radius: 15px;
+border: 0;
+}
+.mini_avatar {
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.avatarka{
+  position: relative;
+}
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 1s ease 0s;
+
+}
+
+.form_login {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+}
+.popap_body{
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.8s ease 0s;
+}
+.div_for_normal {
+  width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.div_blogov{
+  float: left; /*Задаем обтекание*/ /*Фиксируем ширину блока*/
+       margin-right: 10px;
+       margin-bottom: 30px;
+       text-align: center; /*Центрируем текст по горизонтали*/
+       height: 320px;
+       width: :300px;
+       max-width: t: 320px;
+         position: relative;
+}
+.prikol_dl9_svoix{
+  position: relative;
+  height: inherit;
+    width: 300px;
+}
+.d1 {
+  position: relative;
+align-content: center;}
+.d1 form {
+  margin-top: 5%;
+}
+.d1 input {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #7BA7AB;
+  border-radius: 5px;
+  outline: none;
+  background-color: #bbbb;
+  color: #ffff;
+}
+.d1 button {
+  position: absolute;
+  top: 1px;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: #7BA7AB;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  margin-top: 7%;
+}
+.d1 button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}

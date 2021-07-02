@@ -1,0 +1,254 @@
+body {
+  align-content: center;
+    height: 754px;
+font-family: cursive;
+}
+p {
+  word-break: break-all;
+}
+
+.head {
+  margin-left: 25%;
+  margin-right: 15%;
+  display: flex;
+  align-content: center;
+
+}
+
+.logo{
+  width: 250px;
+  margin-right: 52px
+
+}
+
+.search {
+      position: relative;
+      max-width: 704px;
+      min-width: 300px;
+      width: 100%;
+  }
+  .zen-ui-search__magnifier {
+    width: 30px;
+    height: 30px;
+    position:relative;
+    margin: 5px;
+}
+.search_v_nytri {
+  margin-top: 32px;
+  display: flex;
+  height: 40px;
+  border-radius: 19px;
+  background-color: #bbbb;
+  align-content: center;
+
+
+}
+.divniy {
+  display:flex;
+  justify-content: center;
+    padding-left: 25%;
+    padding-right: 20%;
+    position: relative;
+}
+
+.for_text_about_me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  margin: 3% 0;
+  min-height: 100px;
+  align-items: center;
+  word-break: break-all;
+}
+
+.search_ya_vyezhay {
+width: 100%;
+height: auto;
+background: rgba( 255,255,255,.0);
+border-radius: 15px;
+border: 0;
+}
+
+.mini_avatar {
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.button {
+  display: inline-block;
+  width: 12%;
+  height: 35%;
+  padding: 10px;
+  color: white;
+  background: gray;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  position: absolute;
+right: 0;
+margin-right: 15%;
+border:none;
+}
+.avatarka{
+  position: relative;
+}
+.logo_normalno {
+  display: flex;
+}
+
+
+#zatemnenie:target {
+
+display: block;
+
+}
+
+#zatemnenie {
+
+background: rgba(102, 102, 102, 0.68);
+
+width: 100%;
+
+height: 100%;
+
+position: fixed;
+
+top: 0;
+
+left: 0;
+
+display: none;
+
+z-index: 9999999999;
+
+}
+
+window {
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+width: 400px;
+
+border: 1px solid #cecece;
+
+padding: 50px;
+
+transform: translate(-50%,-50%);
+
+background-color: #fafafa;
+
+}
+
+div#main_text a.close_window {
+
+position: absolute;
+
+right: 10px;
+
+top: 4px;
+
+border: none;
+}
+form {
+    display: flex;
+    width: 400px;
+}
+.div_for_normal {
+  width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.div_blogov{
+  float: left; /*Задаем обтекание*/ /*Фиксируем ширину блока*/
+       margin-right: 10px;
+       margin-bottom: 30px;
+       text-align: center; /*Центрируем текст по горизонтали*/
+       height: 320px;
+       width: :300px;
+       max-width: t: 320px;
+         position: relative;
+}
+.prikol_dl9_svoix{
+  position: relative;
+  height: inherit;
+    width: 300px;
+}
+.kopi9{
+height: inherit;
+  position: absolute;
+  bottom: 0;
+clip:rect(175px 300px 320px 0px);
+  transition: 2s;
+    width: 300px;
+    filter: blur(7px);
+}
+.kommenti {
+  margin-left:25%;
+  margin-right: 25%;
+  display:flex;
+}
+.search_v_nytri-loz {
+  margin-left: 5%;
+  margin-top: 1%;
+  display: flex;
+  height: 40px;
+  border-radius: 19px;
+  background-color: #bbbb;
+  align-content: center;
+  width: 100%;
+  text-align: center;
+}
+.kommenti2 {
+  margin-top: 5%;
+  margin-left:30%;
+  margin-right: 25%;
+  display:flex;
+}
+.d1 {
+  position: relative;
+align-content: center;}
+.d1 form {
+  margin-top: 5%;
+}
+.d1 input {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #7BA7AB;
+  border-radius: 5px;
+  outline: none;
+  background-color: #bbbb;
+  color: #ffff;
+}
+.d1 button {
+  position: absolute;
+  top: 1px;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: #7BA7AB;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  margin-top: 7%;
+}
+.d1 button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
